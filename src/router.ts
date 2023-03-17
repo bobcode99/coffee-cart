@@ -4,7 +4,7 @@ import CartPage from './components/pages/CartPage.vue'
 import AdPage from './components/pages/AdPage.vue'
 import GitHubPage from './components/pages/GitHubPage.vue'
 
-export default createRouter({
+export const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
