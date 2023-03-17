@@ -3,6 +3,7 @@ import ListPage from './components/pages/ListPage.vue'
 import CartPage from './components/pages/CartPage.vue'
 import AdPage from './components/pages/AdPage.vue'
 import GitHubPage from './components/pages/GitHubPage.vue'
+import PhotoPage from './components/pages/PhotoPage.vue'
 
 export const router = createRouter({
   history: createWebHistory(),
@@ -22,6 +23,10 @@ export const router = createRouter({
     {
       path: '/github',
       component: GitHubPage
+    },
+    {
+      path: '/photo',
+      component: PhotoPage
     },
   ]
 })

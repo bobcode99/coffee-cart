@@ -7,5 +7,8 @@ export default defineConfig({
   build: {
     sourcemap: true,
     minify: false
-  }
+  },
+  // server: {
+  //   host: '0.0.0.0'
+  // }
 })

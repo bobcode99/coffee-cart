@@ -9,6 +9,9 @@
     <li>
       <router-link aria-label="GitHub page" to="/github">github</router-link>
     </li>
+    <li>
+      <router-link aria-label="Photo page" to="/photo">photo</router-link>
+    </li>
   </ul>
 </template>
 
