@@ -8,6 +8,7 @@ export default defineConfig({
     sourcemap: true,
     minify: false
   },
+  base: 'coffee-cart'
   // server: {
   //   host: '0.0.0.0'
   // }
